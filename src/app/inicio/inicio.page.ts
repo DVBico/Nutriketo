@@ -13,7 +13,7 @@ export class InicioPage implements OnInit {
 
   constructor(public router:Router) { 
     setTimeout(() => {
-      this.router.navigateByUrl('tabs');
+      this.router.navigateByUrl('menu');
     },3800);
   }
 
