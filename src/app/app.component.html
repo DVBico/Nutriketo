@@ -1,3 +1,34 @@
 <ion-app>
+  <ion-menu side="start" menuId="principal" contentId="main">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>MENU</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-item>
+          <ion-icon name="home"></ion-icon>INCIO
+        </ion-item>
+        <ion-item>
+          <ion-icon name="heart"></ion-icon>FAVORITOS
+        </ion-item>
+        <ion-item>
+          <ion-icon name="nutrition"></ion-icon>DESAYUNO
+        </ion-item>
+        <ion-item>
+          <ion-icon name="fish"></ion-icon>COMIDA
+        </ion-item>
+        <ion-item>
+          <ion-icon name="pizza"></ion-icon>CENA
+        </ion-item>
+        <ion-item>
+          <ion-icon name="sparkles"></ion-icon>SNACK
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+  
   <ion-router-outlet></ion-router-outlet>
 </ion-app>
