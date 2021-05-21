@@ -1,17 +1,35 @@
+ion-content{
+    --background:rgb(249, 250, 232, 1);
+}
+
 .Dimg{
 
     img{
 
         height: 100px;
-        margin-left: 8%;
-        margin-top: 5%;   
+        width: 100px;
+        margin-left: 6%;
+        margin-top: 6%;   
     }
 
-    ion-card{
-        margin-block: 10%;
-        
-        
-        
+    ion-card-content{
+        min-height: 230px;
+        background-color: rgb(241,248,226);
+    }
+
+    ion-item{
+        border-radius: 1px;
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        margin-top: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        min-height: 200px;
+        margin-block: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+        background-color: rgb(241,248,226);
     }
 
 
