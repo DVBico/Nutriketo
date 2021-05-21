@@ -22,6 +22,10 @@ const routes: Routes = [
   {
     path: 'crear-cuenta',
     loadChildren: () => import('./crear-cuenta/crear-cuenta.module').then( m => m.CrearCuentaPageModule)
+  },
+  {
+    path: 'menu-d',
+    loadChildren: () => import('./Desayuno/menu-d/menu-d.module').then( m => m.MenuDPageModule)
   }
 
 
