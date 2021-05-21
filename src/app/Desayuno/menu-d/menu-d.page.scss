@@ -9,7 +9,7 @@ ion-content{
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
-        line-height: 75.7%;
+        line-height: 18px;
         text-align: center;
         color: #000000; 
     }
@@ -17,7 +17,7 @@ ion-content{
     img{
 
         height: 100px;
-        width: 120px;
+        width: 150px;
        
     }
 
@@ -31,4 +31,9 @@ ion-content{
         box-shadow: -1px 1px 10px rgba($color: #2c2c2c, $alpha: 8.0);
     }
 
+}
+
+.Distool{
+
+    background-color: rgb(48, 83, 51);
 }
