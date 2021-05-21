@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'omeletkq',
     loadChildren: () => import('./Desayuno/omeletkq/omeletkq.module').then( m => m.OmeletkqPageModule)
+  },
+  {
+    path: 'pannacotta',
+    loadChildren: () => import('./Snacks/pannacotta/pannacotta.module').then( m => m.PannacottaPageModule)
   }
 
 
