@@ -4,33 +4,38 @@ ion-content{
 
 .Dimg{
 
+    p{
+        font-family: Esteban;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 75.7%;
+        text-align: center;
+        color: #000000; 
+    }
+
     img{
 
         height: 100px;
         width: 100px;
-        margin-left: 6%;
-        margin-top: 6%;   
+       
     }
 
     ion-card-content{
-        min-height: 230px;
+        min-height: 195px;
+        max-height: 195px;
+        min-width: 140px;
+        max-width: 140px;
         background-color: rgb(241,248,226);
+        margin-block: 1px;
+        margin-left: 15px;
+        margin-right: 15px;
+        border-style: dashed;
+        border-color: green;
     }
 
-    ion-item{
-        border-radius: 1px;
-        border-color: black;
-        border-width: 1px;
-        border-style: solid;
-        margin-top: 10px;
-        margin-left: 5%;
-        margin-right: 5%;
-        min-height: 200px;
-        margin-block: 1px;
-        margin-left: 1px;
-        margin-right: 1px;
-        background-color: rgb(241,248,226);
-    }
+
+
 
 
 }
