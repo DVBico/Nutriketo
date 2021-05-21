@@ -1,7 +1,0 @@
-{
-  "name": "Nutriketo",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
