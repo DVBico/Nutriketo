@@ -19,7 +19,15 @@ const routes: Routes = [
   {
     path: 'menu',
     loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+  },  {
+    path: 'menu-s',
+    loadChildren: () => import('./Snacks/menu-s/menu-s.module').then( m => m.MenuSPageModule)
+  },
+  {
+    path: 'omeletkq',
+    loadChildren: () => import('./Desayuno/omeletkq/omeletkq.module').then( m => m.OmeletkqPageModule)
   }
+
 
 
 ];
