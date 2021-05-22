@@ -77,6 +77,42 @@ const routes: Routes = [
   {
     path: 'tostadas',
     loadChildren: () => import('./Desayuno/tostadas/tostadas.module').then( m => m.TostadasPageModule)
+  },
+  {
+    path: 'alfajores',
+    loadChildren: () => import('./Snacks/alfajores/alfajores.module').then( m => m.AlfajoresPageModule)
+  },
+  {
+    path: 'chipcalabaza',
+    loadChildren: () => import('./Snacks/chipcalabaza/chipcalabaza.module').then( m => m.ChipcalabazaPageModule)
+  },
+  {
+    path: 'chips',
+    loadChildren: () => import('./Snacks/chips/chips.module').then( m => m.ChipsPageModule)
+  },
+  {
+    path: 'cookies',
+    loadChildren: () => import('./Snacks/cookies/cookies.module').then( m => m.CookiesPageModule)
+  },
+  {
+    path: 'helado',
+    loadChildren: () => import('./Snacks/helado/helado.module').then( m => m.HeladoPageModule)
+  },
+  {
+    path: 'hummus',
+    loadChildren: () => import('./Snacks/hummus/hummus.module').then( m => m.HummusPageModule)
+  },
+  {
+    path: 'mugcakes',
+    loadChildren: () => import('./Snacks/mugcakes/mugcakes.module').then( m => m.MugcakesPageModule)
+  },
+  {
+    path: 'papitas',
+    loadChildren: () => import('./Snacks/papitas/papitas.module').then( m => m.PapitasPageModule)
+  },
+  {
+    path: 'pasteltresleches',
+    loadChildren: () => import('./Snacks/pasteltresleches/pasteltresleches.module').then( m => m.PasteltreslechesPageModule)
   }
 
 
