@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { MenuCPage } from './menu-c.page';
+import { LasanaPage } from './lasana.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: MenuCPage
+    component: LasanaPage
   }
 ];
 
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class MenuCPageRoutingModule {}
+export class LasanaPageRoutingModule {}

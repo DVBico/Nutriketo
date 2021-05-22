@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { LPageRoutingModule } from './l-routing.module';
+import { LasanaPageRoutingModule } from './lasana-routing.module';
 
-import { LPage } from './l.page';
+import { LasanaPage } from './lasana.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    LPageRoutingModule
+    LasanaPageRoutingModule
   ],
-  declarations: [LPage]
+  declarations: [LasanaPage]
 })
-export class LPageModule {}
+export class LasanaPageModule {}

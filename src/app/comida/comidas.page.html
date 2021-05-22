@@ -1,44 +1,129 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>Comidas</ion-title>
+  <div>
+    <ion-toolbar color="Danger">
+      <ion-buttons slot="start">
+        <ion-menu-button autoHide="false"></ion-menu-button><ion-title>Comidas</ion-title>
+      </ion-buttons>
   </ion-toolbar>
+  </div>
 </ion-header>
 
-<ion-content>
-  <div class="Dimg">
-    <ion-row >
-      <ion-col>
-            <ion-card-content>
-              <img src="assets/./comidas/foto-del-paso-5-de-la-receta-enchiladas-suizas-tipo-keto.jpg">
-                <p>Enchiladas suizas tipo Keto</p>
-            </ion-card-content>
-      </ion-col>
-      <ion-col>
-            <ion-card-content>
-              <img src="assets/./comidas/pollo.jpg">
-              <p>
-                Pollo con verduras de 3 colores
-              </p>> 
-            </ion-card-content>
-      </ion-col>     
-    </ion-row>
-    <ion-row>
-        <ion-col>
-          <ion-card-content>
-            <img src="assets/./comidas/Albondigas.jpg">
-              <p>
-                Albondigas italianas de pollo con salsa de crema
-              </p>
+<ion-content padding>
+  <ion-grid>
+    <div class="Dimg">
+      <ion-row >
+        <ion-col >
+          <ion-card-content routerLink="albondigas">
+                <img src="assets/comidas/Albondigas.jpg">
+                <p>
+                  Albondigas
+                </p>
           </ion-card-content>
         </ion-col>
         <ion-col>
-          <ion-card-content>
-            <img src="assets/./comidas/pollofrito.jpg">
+  
+            <ion-card-content routerLink="escolapines">
+              <img src="assets/comidas/Escalopines.jpg">
               <p>
-                Pollo frito crocante Keto
+                Escalopines
+  
               </p>
             </ion-card-content>
-      </ion-col>          
-    </ion-row>
-  </div>
+  
+        </ion-col>     
+      </ion-row>
+      <ion-row>
+        <ion-col>
+  
+            <ion-card-content routerLink="enchiladas">
+              <img src="assets/comidas/foto-del-paso-5-de-la-receta-enchiladas-suizas-tipo-keto.jpg">
+              <p>
+                Enchiladas
+              </p>
+            </ion-card-content>
+  
+        </ion-col>
+  
+        <ion-col>
+          
+            <ion-card-content routerLink="gambas">
+              <img src="assets/comidas/gambas.jpg">
+              <p>
+                Gambas
+              </p>
+            </ion-card-content>
+         
+        </ion-col>          
+      </ion-row>
+      <ion-row>
+        <ion-col>
+  
+            <ion-card-content routerLink="guiso">
+              <img src="assets/comidas/guiso.jpg">
+              <p>
+               Guiso
+              </p>
+            </ion-card-content>
+  
+        </ion-col>
+  
+        <ion-col>
+          
+            <ion-card-content routerLink="hamburguesa">
+              <img src="assets/comidas/hamburguesa.jpg">
+              <p>
+                Hamaburguesa
+              </p>
+            </ion-card-content>
+         
+        </ion-col>          
+      </ion-row>
+      <ion-row>
+        <ion-col>
+  
+            <ion-card-content routerLink="lasana">
+              <img src="assets/comidas/lasaña.jpg">
+              <p>
+                Lasaña
+              </p>
+            </ion-card-content>
+  
+        </ion-col>
+  
+        <ion-col>
+          
+            <ion-card-content routerLink="pollo">
+              <img src="assets/comidas/pollo.jpg">
+              <p>
+                Pollo
+              </p>
+            </ion-card-content>
+         
+        </ion-col>          
+      </ion-row>
+      <ion-row>
+        <ion-col>
+  
+            <ion-card-content routerLink="pollofrito">
+              <img src="assets/comidas/pollofrito.jpg">
+              <p>
+               Pollo frito
+              </p>
+            </ion-card-content>
+  
+        </ion-col>
+  
+        <ion-col>
+          
+            <ion-card-content routerLink="sopa">
+              <img src="assets/comidas/sopa.jpg">
+              <p>
+                Sopa
+              </p>
+            </ion-card-content>
+         
+        </ion-col>          
+      </ion-row>
+    </div>
+  </ion-grid>
 </ion-content>

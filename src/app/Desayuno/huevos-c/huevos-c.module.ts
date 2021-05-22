@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { MenuCPageRoutingModule } from './menu-c-routing.module';
+import { HuevosCPageRoutingModule } from './huevos-c-routing.module';
 
-import { MenuCPage } from './menu-c.page';
+import { HuevosCPage } from './huevos-c.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    MenuCPageRoutingModule
+    HuevosCPageRoutingModule
   ],
-  declarations: [MenuCPage]
+  declarations: [HuevosCPage]
 })
-export class MenuCPageModule {}
+export class HuevosCPageModule {}
