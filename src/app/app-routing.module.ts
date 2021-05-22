@@ -113,6 +113,10 @@ const routes: Routes = [
   {
     path: 'pasteltresleches',
     loadChildren: () => import('./Snacks/pasteltresleches/pasteltresleches.module').then( m => m.PasteltreslechesPageModule)
+  },
+  {
+    path: 'favoritos',
+    loadChildren: () => import('./favoritos/favoritos.module').then( m => m.FavoritosPageModule)
   }
 
 
