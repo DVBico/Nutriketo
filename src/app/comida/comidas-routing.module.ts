@@ -47,6 +47,10 @@ const routes: Routes = [
     path: 'hamburguesa',
     loadChildren: () => import('./hamburguesa/hamburguesa.module').then( m => m.HamburguesaPageModule)
   },
+  {
+    path: 'menu-co',
+    loadChildren: () => import('./menu-co/menu-co.module').then( m => m.MenuCoPageModule)
+  },
 
  
 
