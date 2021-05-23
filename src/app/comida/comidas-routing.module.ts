@@ -7,47 +7,48 @@ const routes: Routes = [
   {
     path: '',
     component: ComidasPage
+  },  {
+    path: 'arroz',
+    loadChildren: () => import('./arroz/arroz.module').then( m => m.ArrozPageModule)
   },
   {
-    path: 'albondigas',
-    loadChildren: () => import('./albondigas/albondigas.module').then( m => m.AlbondigasPageModule)
+    path: 'cazuela',
+    loadChildren: () => import('./cazuela/cazuela.module').then( m => m.CazuelaPageModule)
   },
   {
-    path: 'enchiladas',
-    loadChildren: () => import('./enchiladas/enchiladas.module').then( m => m.EnchiladasPageModule)
+    path: 'chuletas',
+    loadChildren: () => import('./chuletas/chuletas.module').then( m => m.ChuletasPageModule)
   },
   {
-    path: 'escolapines',
-    loadChildren: () => import('./escolapines/escolapines.module').then( m => m.EscolapinesPageModule)
-  },
-  {
-    path: 'gambas',
-    loadChildren: () => import('./gambas/gambas.module').then( m => m.GambasPageModule)
-  },
-  {
-    path: 'guiso',
-    loadChildren: () => import('./guiso/guiso.module').then( m => m.GuisoPageModule)
-  },
-  {
-    path: 'hamburguesa',
-    loadChildren: () => import('./hamburguesa/hamburguesa.module').then( m => m.HamburguesaPageModule)
+    path: 'escalopines',
+    loadChildren: () => import('./escalopines/escalopines.module').then( m => m.EscalopinesPageModule)
   },
   {
     path: 'lasana',
     loadChildren: () => import('./lasana/lasana.module').then( m => m.LasanaPageModule)
   },
   {
-    path: 'pollo',
-    loadChildren: () => import('./pollo/pollo.module').then( m => m.PolloPageModule)
+    path: 'pescado',
+    loadChildren: () => import('./pescado/pescado.module').then( m => m.PescadoPageModule)
   },
   {
     path: 'pollofrito',
     loadChildren: () => import('./pollofrito/pollofrito.module').then( m => m.PollofritoPageModule)
   },
   {
-    path: 'sopa',
-    loadChildren: () => import('./sopa/sopa.module').then( m => m.SopaPageModule)
-  }
+    path: 'revueltorepollo',
+    loadChildren: () => import('./revueltorepollo/revueltorepollo.module').then( m => m.RevueltorepolloPageModule)
+  },
+  {
+    path: 'sopamar',
+    loadChildren: () => import('./sopamar/sopamar.module').then( m => m.SopamarPageModule)
+  },
+  {
+    path: 'hamburguesa',
+    loadChildren: () => import('./hamburguesa/hamburguesa.module').then( m => m.HamburguesaPageModule)
+  },
+
+ 
 
 ];
 
