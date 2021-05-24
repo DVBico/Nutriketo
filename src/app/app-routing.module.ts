@@ -14,7 +14,7 @@ const routes: Routes = [
   },
   {
     path: 'comidas',
-    loadChildren: () => import('./comida/comidas.module').then( m => m.ComidasPageModule)
+    loadChildren: () => import('./comidas/comidas.module').then( m => m.ComidasPageModule)
   },
 
   {
