@@ -45,10 +45,6 @@ const routes: Routes = [
     loadChildren: () => import('./ensaladak/ensaladak.module').then( m => m.EnsaladakPageModule)
   },
   {
-    path: 'menu-c',
-    loadChildren: () => import('./menu-c/menu-c.module').then( m => m.MenuCPageModule)
-  },
-  {
     path: 'cham',
     loadChildren: () => import('./cham/cham.module').then( m => m.ChamPageModule)
   }

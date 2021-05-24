@@ -12,10 +12,6 @@ const routes: Routes = [
     path: 'inicio',
     loadChildren: () => import('./inicio/inicio.module').then( m => m.InicioPageModule)
   },
-  {
-    path: 'comidas',
-    loadChildren: () => import('./comidas/comidas.module').then( m => m.ComidasPageModule)
-  },
 
   {
     path: 'menu-d',
@@ -116,7 +112,11 @@ const routes: Routes = [
   {
     path: 'cena',
     loadChildren: () => import('./cena/cena.module').then( m => m.CenaPageModule)
-  }
+  },
+  {
+    path: 'comida',
+    loadChildren: () => import('./comida/comida.module').then( m => m.ComidaPageModule)
+  },
 
 
 

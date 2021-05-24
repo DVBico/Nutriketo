@@ -3,5 +3,31 @@ ion-content{
 }
 
 ion-toolbar{
-    background-color: rgb(96, 155, 108);
+    background-color: #3F6F21;
+}
+
+ion-card-content{
+    background-color: rgb(241,248,226);
+    font-family: Esteban;
+    min-height: 260px;
+    max-height: 260px;
+}
+.Diseño{
+    p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000; 
+    }
+
+    h1{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 28px;
+        color:#535353;
+    }
 }
