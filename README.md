@@ -4,11 +4,11 @@
 
 ***Equipo.***
 
- --Alan Ernesto Altamirano Vazquez.
+ -Alan Ernesto Altamirano Vazquez. #1874934
    
-   -Abel Ayala Cobas.
+ -Abel Ayala Cobas.
    
-   -Diana Veronica Moreno López.
+ -Diana Veronica Moreno López.
    
 ---------------------------------------------------------------------------
 Este proyecto Trata sobre una aplicación de recetas para personas que rigen una dieta de comidas keto.
