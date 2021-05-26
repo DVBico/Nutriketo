@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-
+//El  primer routing que se ve en pantalla es el que hace redireccion hacia la pantalla de inicio.
 const routes: Routes = [
   {
     path:'',
