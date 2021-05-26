@@ -6,7 +6,7 @@
 
  -Alan Ernesto Altamirano Vazquez. #1874934
    
- -Abel Ayala Cobas.
+ -Abel Ayala Cobas 1841485.
    
  -Diana Veronica Moreno López.
    
