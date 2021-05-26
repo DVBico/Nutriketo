@@ -117,10 +117,13 @@ const routes: Routes = [
     path: 'comida',
     loadChildren: () => import('./comida/comida.module').then( m => m.ComidaPageModule)
   },
+<<<<<<< HEAD
   {
     path: 'login',
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
+=======
+>>>>>>> 7106aee86a1d7585326c2bb922a401b38ad63f1c
 
 
 
