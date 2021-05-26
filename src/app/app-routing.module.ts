@@ -106,10 +106,6 @@ const routes: Routes = [
     loadChildren: () => import('./Snacks/pasteltresleches/pasteltresleches.module').then( m => m.PasteltreslechesPageModule)
   },
   {
-    path: 'favoritos',
-    loadChildren: () => import('./favoritos/favoritos.module').then( m => m.FavoritosPageModule)
-  },
-  {
     path: 'cena',
     loadChildren: () => import('./cena/cena.module').then( m => m.CenaPageModule)
   },
@@ -117,16 +113,6 @@ const routes: Routes = [
     path: 'comida',
     loadChildren: () => import('./comida/comida.module').then( m => m.ComidaPageModule)
   },
-<<<<<<< HEAD
-  {
-    path: 'login',
-    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
-  },
-=======
->>>>>>> 7106aee86a1d7585326c2bb922a401b38ad63f1c
-
-
-
 ];
 @NgModule({
   imports: [
