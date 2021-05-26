@@ -6,9 +6,9 @@
 
  -Alan Ernesto Altamirano Vazquez. #1874934
    
- -Abel Ayala Cobas 1841485.
+ -Abel Ayala Cobas. #1841485
    
- -Diana Veronica Moreno López.
+ -Diana Veronica Moreno López. #1941422
    
 ---------------------------------------------------------------------------
 Este proyecto Trata sobre una aplicación de recetas para personas que rigen una dieta de comidas keto.
