@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class InicioPage implements OnInit {
 
-  
+  //La funcion del constructor es la de poner un delay para mostrar la pantalla de incio antes de redireccionar hacia el menu.
 
   constructor(public router:Router) { 
     setTimeout(() => {
