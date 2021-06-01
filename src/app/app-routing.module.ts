@@ -112,7 +112,19 @@ const routes: Routes = [
   {
     path: 'comida',
     loadChildren: () => import('./comida/comida.module').then( m => m.ComidaPageModule)
+  },  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
+  {
+    path: 'register',
+    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'page',
+    loadChildren: () => import('./page/page.module').then( m => m.PagePageModule)
+  },
+
 ];
 @NgModule({
   imports: [

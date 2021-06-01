@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-1b0fe": {
+      "hosting": {
+        "app": [
+          "login-1b0fe"
+        ]
+      }
+    }
+  }
+}
