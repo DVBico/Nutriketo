@@ -20,7 +20,7 @@ export class RegisterPage implements OnInit {
       if(user){
         console.log('User->', user);
         const isVerified = this.authSvc.isEmailVerified(user);
-        this.redirectUser(isVerified);
+        this.redirectUser(true);
       }
       
     } catch (error) {
@@ -30,7 +30,7 @@ export class RegisterPage implements OnInit {
 
   private redirectUser(isVerified:boolean): void{
     if(isVerified){
-      this.router.navigate(['admin']);
+      this.router.navigate(['menu']);
     }else{
       this.router.navigate(['page']);
     }
