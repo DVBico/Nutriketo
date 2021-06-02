@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import {  AngularFireAuthModule} from '@angular/fire/auth';
 import { AngularFireModule} from '@angular/fire';
 
-import { environment } from 'src/environments/environment'
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [AppComponent],

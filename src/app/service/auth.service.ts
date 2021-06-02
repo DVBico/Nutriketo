@@ -3,8 +3,8 @@ import { User } from '../shared/user.interface';
 import { AngularFireAuth } from '@angular/fire/auth';
 
 
-import {AngularFirestore, AngularFirestoreDocument} from '@angular/fire/firestore'
-import { Observable, of } from 'rxjs';
+import {AngularFirestore, AngularFirestoreDocument} from '@angular/fire/firestore';
+import { Observable } from 'rxjs';
 
 
 
